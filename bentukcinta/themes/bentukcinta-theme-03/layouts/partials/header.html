@@ -1,0 +1,21 @@
+{{ "<!-- Header -->" | safeHTML }}
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v9.0&appId=394902795044466&autoLogAppEvents=1" nonce="qI8sOVQJ"></script>
+ 
+<a href="https://api.whatsapp.com/send?phone={{ .Site.Params.notelp}} &text=Hi,%20ini%20pesan%20dari%20undangan%20online%20mu." class="float" target="_blank">
+  <i class="fa fa-whatsapp my-float"></i>
+</a>
+
+<header>
+
+    <div class="header-content">
+        <div class="hero-title">
+            <h1>Pawiwahan</h1>
+            <h2 class="m-12">{{ .Site.Params.pengantin.shortnamePria}} & {{ .Site.Params.pengantin.shortnameWanita}} </h2>
+            <p class="m-12">{{ .Site.Params.acara.hari}}, {{ .Site.Params.acara.tanggal}}  {{ .Site.Params.acara.bulan}}  {{ .Site.Params.acara.tahun}}</p>
+            <img src="/img/header-ornament.png">
+        </div>
+    </div>
+
+</header>

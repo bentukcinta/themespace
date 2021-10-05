@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Qwigley&family=Source+Sans+Pro:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+a{
+  text-decoration: none;
+  font-weight: 400;
+  font-size:1.5rem;
+}
+h1{
+  font-family: 'Qwigley', cursive;
+  font-weight: 400;
+  font-size: 10.714rem;
+}
+h2{
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 1.714rem;
+  text-transform: uppercase;
+}
+p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size:1.286rem;
+}
+
+.row{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.m-12{
+  margin: 0px 0px 12px 0px;
+}
+
+.text-center{
+
+    text-align: center;
+  
+}
+
+section{
+  padding: 120px 0;
+}
+
+/* Hero Section */
+header{
+  width: 100%;
+  height: 100vh;
+  background-image: url('../img/bg-mashead.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: whitesmoke;
+}
+header h2{
+  letter-spacing: 1.5rem;
+}
+header h1{
+  line-height: 80%;
+}
+header p{
+  text-transform: uppercase;
+}
+.header-content{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px 0px 150px;
+  background-image: url('../img/image-bottom.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:0% 100%;;
+}
+
+.hero-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+
+/* about section */
+.about{
+  height: 100vh;
+  background: #F1EDE1;
+}
+.about-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  width: 80%;
+}
+
+
+
+/*Media Queries*/
+@media only screen and (max-width: 375px){
+  a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size:1.5rem;
+  }
+  h1{
+    font-family: 'Qwigley', cursive;
+    font-weight: 400;
+    font-size: 6rem;
+  }
+  h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+  }
+  p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size:0.9rem;
+    text-transform: uppercase;
+  }
+  
+  header{
+    width: 100vw;
+    height: 100vh;
+    background-position:50% 30%;
+  }
+
+  header h2{
+    letter-spacing: 0.5rem;
+  }
+  header h1{
+    line-height: 80%;
+  }
+}
+
+@media only screen and (max-width:768px){
+  header{
+    width: 100vw;
+    height: 100vh;
+    background-position:50% 30%;
+    padding: 0;
+  }
+}
+

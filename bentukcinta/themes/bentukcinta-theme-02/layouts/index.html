@@ -1,0 +1,175 @@
+{{ define "main" }}
+
+    <section id="about" class="about-section text-center">
+        <div class="container pb-5">
+
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-black mb-4" data-aos="fade-up" data-aos-duration="2000">Om Swastiastu</h2>
+              <p class="text-black" data-aos="fade-up" data-aos-duration="2000">Atas Asung Kertha Wara Nugraha Ida Sang Hyang Widhi Wasa/Tuhan Yang Maha Esa kami bermaksud mengundang Bapak/Ibu/Saudara/i pada Upacara Manusa Yadnya Pawiwahan (Pernikahan) Putra dan Putri kami
+              </p>
+            </div>
+          </div>
+
+          <!-- pawiwahan -->
+          <div class="row">
+            <div class="col-lg-12">
+              <h3 class="text-black" data-aos="fade-up" data-aos-duration="2000">Pawiwahan</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="card" data-aos="fade-up" data-aos-duration="2000">
+                <div class="card-body">                        
+                  <img class="card-img-top mb-4" src="img/mempelai-pria.png" alt="{{ .Site.Params.pengantin.longnamePria }}">
+                  <h2 class="text-black">{{ .Site.Params.pengantin.longnamePria }}</h2>
+                  <p class="mb-0 text-black card-text-small">{{ .Site.Params.pengantin.detailPria }}</p>
+                  <p class="mb-1 text-black card-text">{{ .Site.Params.pengantin.ortuPria }}</p>
+                  <hr />
+                  <p class="mb-0 text-black card-text-small"><i class="fa fa-map-marker" aria-hidden="true"></i>{{ .Site.Params.pengantin.alamatPria }}</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-6">
+                <div class="d-block d-sm-none"><h3 class="text-black" data-aos="fade-up" data-aos-duration="2000">Dengan</h3></div>
+              <div class="card" data-aos="fade-up" data-aos-duration="2000">
+                <div class="card-body">                    
+                  <img class="card-img-top mb-4" src="img/mempelai-wanita.png" alt="{{ .Site.Params.pengantin.longnameWanita }}">
+                  <h2 class="text-black">{{ .Site.Params.pengantin.longnameWanita }}</h2>
+                  <p class="mb-0 text-black card-text-small">{{ .Site.Params.pengantin.detailWanita }}</p>
+                  <p class="mb-1 text-black card-text">{{ .Site.Params.pengantin.ortuWanita }}</p>
+                  <hr />
+                  <p class="mb-0 text-black card-text-small"><i class="fa fa-map-marker" aria-hidden="true"></i>{{ .Site.Params.pengantin.alamatWanita }}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /pawiwahan -->
+          </div>
+      </section>
+    <!-- /section perkenalan -->
+
+    <section class="container acara-section text-center">    
+        <div class=" pb-5">
+          <div class="row">
+            <div class="col-lg-8 mx-auto pt-5">          
+              <p class="text-black mb-3" data-aos="zoom-in-down" data-aos-duration="2000">Merupakan suatu kehormatan dan kebahagiaan bagi kami, apabila Bapak / Ibu / Saudara / i berkenan hadir untuk memberikan doa restu, pada:</p>
+              <div class="date-box">
+                <p class="text-black mb-3"  data-aos="fade-up" data-aos-duration="2000"><i class="fa fa-calendar" aria-hidden="true"></i> {{ .Site.Params.acara.hari }}, {{ .Site.Params.acara.tanggal }} {{ .Site.Params.acara.bulan }} {{ .Site.Params.acara.tahun }}<br><i class="fa fa-clock-o" aria-hidden="true"></i> {{ .Site.Params.acara.pukul }}<br><i class="fa fa-map-marker" aria-hidden="true"></i> {{ .Site.Params.acara.alamat }}</p>
+              </div>    
+              <div data-aos="fade-up" data-aos-duration="2000">    
+                <h5 class="text-black">- MEMBERSIHKAN TANGAN</h5>
+                <h5 class="text-black">- WAJIB MEMAKAI MASKER</h5>
+                <h5 class="text-black">- MENJAGA JARAK</h5>
+                <h5 class="text-black">- TETAP MEMATUHI PROTOKOL KESEHATAN</h5>
+              </div>
+              <p class="text-black" data-aos="fade-up" data-aos-duration="2000">Atas Kehadiran serta doa dan restu Bapak / Ibu / Saudara / i, kami ucapkan terima kasih</p>
+              <h2 class="text-black mb-5"  data-aos="fade-up" data-aos-duration="2000">Om Shanti Shanti Shanti Om</h2>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- /acara -->
+
+    <section id="gallery" class="gallery-section bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+              <h2 class="mb-5" data-aos="fade-up" data-aos-duration="2000">Gallery</h2>
+            </div>
+          </div>
+          <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          
+            <div class="col-xl-12">
+              <div class="featured-text text-center text-lg-left ml-lg-5 mt-3">
+                <p class="text-black mb-2">"Ya Tuhanku yang Maha Pengasih, anugerahkanlah kepada pasangan pengantin ini senantiasa berbahagia keduanya tiada terpisahkan, panjang umur, semoga pengantin ini dianugerahkan putra dan cucu yang memberikan penghiburan, tinggal dirumah yang penuh kebahagiaan.”</p>
+                <p class="text-black-50">RG VEDA X.85.42</p>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+            <div class="col-12">
+              <div class="featured-text text-center text-lg-left ml-lg-5 mt-3">
+                <p class="text-black mb-2" data-aos="fade-up" data-aos-duration="2000">"Ya Tuhanku yang Maha Pengasih, anugrahkanlah kepada pasangan pengantin ini senantiasa berbahagia keduanya tiada terpisahkan, panjang umur, semoga pengantin ini dianugrahkan putra dan cucu yang memberikan penghiburan, tinggal dirumah yang penuh kebahagiaan.”</p>
+                <p class="text-black-50"  data-aos="fade-up" data-aos-duration="2000">RG VEDA X.85.42</p>
+              </div>
+            </div>
+          </div> -->
+
+          <hr class="mt-2 mb-5">
+          <div class="row text-center text-lg-left" data-aos="fade-up" data-aos-duration="2000">
+            <div class="col-lg-3 col-md-4 col-6">
+              <a data-fancybox="gallery" href="img/gallery1.jpg" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail" src="img/gallery1-thumb.jpg" alt="">
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <a data-fancybox="gallery" href="img/gallery2.jpg" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail" src="img/gallery2-thumb.jpg" alt="">
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <a data-fancybox="gallery" href="img/gallery3.jpg" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail" src="img/gallery3-thumb.jpg" alt="">
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <a data-fancybox="gallery" href="img/gallery4.jpg" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail" src="img/gallery4-thumb.jpg" alt="">
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <a data-fancybox="gallery" href="img/gallery5.jpg" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail" src="img/gallery5-thumb.jpg" alt="">
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <a data-fancybox="gallery" href="img/gallery6.jpg" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail" src="img/gallery6-thumb.jpg" alt="">
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <a data-fancybox="gallery" href="img/gallery7.jpg" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail" src="img/gallery7-thumb.jpg" alt="">
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <a data-fancybox="gallery" href="img/gallery8.jpg" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail" src="img/gallery8-thumb.jpg" alt="">
+              </a>
+            </div>            
+          </div>
+        </div>   
+    </section>
+    <!-- /gallery -->
+
+    <section id="maps">
+        <div class="map-section bg-black">
+            <div class="container">
+                <div class="row">
+                  <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="mb-5" data-aos="fade-up" data-aos-duration="2000">Lokasi Upacara</h2>
+                  </div>
+                </div>
+
+                <div class="container">
+                    <div class="row">                 
+                        <div class="col-md-12 mb-5">
+                          <div class="map-area">
+                              <div class="map" data-aos="fade-up" data-aos-duration="2000">
+                                <iframe src="{{ .Site.Params.googlemap }}" width="100%" height="440" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                              </div>
+                              
+                          </div>
+                        </div>
+                        <div class="col-lg-8 mx-auto text-center mb-5">
+                            <a href="{{ .Site.Params.koordinat }}" data-aos="zoom-in" data-aos-delay="400" class="btn btn-info">Buka Petunjuk Lokasi</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /map -->
+{{ end }}

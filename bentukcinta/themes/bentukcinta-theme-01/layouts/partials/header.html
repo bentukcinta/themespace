@@ -1,0 +1,27 @@
+{{ "<!-- Header -->" | safeHTML }}
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v9.0&appId=394902795044466&autoLogAppEvents=1" nonce="qI8sOVQJ"></script>
+ 
+<a href="https://api.whatsapp.com/send?phone={{ .Site.Params.notelp}} &text=Hi,%20ini%20pesan%20dari%20undangan%20online%20mu." class="float" target="_blank">
+  <i class="fa fa-whatsapp my-float"></i>
+</a>
+
+<header class="masthead">
+
+    <div class="container d-flex h-100 align-items-end pb-5">
+        <div class="mx-auto text-center fade-animate">
+            <h2 class="text-primary mx-auto mb-4">UNDANGAN PERNIKAHAN</h2>
+            <h1 class="mx-auto">{{ .Site.Params.pengantin.shortnamePria}} & {{ .Site.Params.pengantin.shortnameWanita}} </h1>
+            <h3 class="text-primary mx-auto">WE INVITE YOU TO CELEBRATE</h3>
+            <h3 class="text-primary mx-auto">WITH US THE MOST SPECIAL DAY IN OUR LIFES</h3>
+            <div class="d-flex flex-lg-row align-items-center mt-5 pb-5">
+                <h3 class="text-primary mx-auto">{{slicestr .Site.Params.acara.bulan 0 3}} •</h3>
+                <h4 class="text-primary mx-auto">{{ .Site.Params.acara.tanggal}}</h4>
+                <h3 class="text-primary mx-auto">• {{ .Site.Params.acara.tahun}}</h3>
+                <a href="#about" class="scroll-down" address="true"></a>
+            </div>
+        </div>
+    </div>
+
+</header>

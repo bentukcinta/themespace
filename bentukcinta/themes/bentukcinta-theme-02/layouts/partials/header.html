@@ -1,0 +1,65 @@
+<div id="myModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Protokol Covid-19</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <p>Tanpa mengurangi rasa hormat, dikarenakan situasi yang sedang terjadi ditengah Pandemi Covid-19 ini kami memohon maaf karena acara akan diselenggarakan sesuai peraturan dan himbauan pemerintah.</p>
+                    <div class="row">
+                      <div class="col-md-4 col-4">
+                        <img src="img/cucitangan.png" width="80px" class="img-responsive">
+                        <p class="mt16">Membersihkan tangan</p>
+                      </div>
+                      <div class="col-md-4 col-4">
+                        <img src="img/masker.png" width="80px" class="img-responsive">
+                        <p class="mt16">Memakai masker</p>
+                      </div>
+                      <div class="col-md-4 col-4">
+                        <img src="img/jagajarak.png" width="80px" class="img-responsive">
+                         <p class="mt16">Menjaga jarak</p>
+                      </div>
+                    </div>             
+                    <h5>Mari kita lindungi kesehatan bersama.</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /modal protokol c19 -->
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v9.0&appId=394902795044466&autoLogAppEvents=1" nonce="qI8sOVQJ"></script>
+     
+    <a href="https://api.whatsapp.com/send?phone=%2b{{ .Site.Params.notelp }} &text=Hi,%20ini%20pesan%20dari%20undangan%20online%20mu." class="float" target="_blank">
+      <i class="fa fa-whatsapp my-float"></i>
+    </a>
+    <!-- /wa btn -->
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-block w-100 image" style="background-image: url('img/slider-1.jpg');"></div>
+                <div class="mx-auto text-center">
+                  <div class="carousel-caption d-md-block">
+                  <h2 class="text-primary mx-auto">UNDANGAN PERNIKAHAN</h2>
+                  <h1 class="mx-auto">{{ .Site.Params.pengantin.shortnamePria }} & {{ .Site.Params.pengantin.shortnameWanita }}</h1>
+                  <div class="d-flex flex-lg-row align-items-center pb-5">
+                    <h3 class="text-primary mx-auto">{{ .Site.Params.acara.bulan }} • {{ .Site.Params.acara.tanggal }} • {{ .Site.Params.acara.tahun }}</h3>
+                    <a href="#about" class="scroll-down" address="true"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+       <!--  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+        </a> -->
+    </div>
+    <!-- /slide -->

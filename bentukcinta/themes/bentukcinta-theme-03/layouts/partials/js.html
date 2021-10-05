@@ -1,0 +1,22 @@
+{{ "<!-- jQuery -->" | safeHTML }}
+<script src="js/jquery-1.11.js"></script>
+{{ "<!-- Bootstrap Core JavaScript -->" | safeHTML }}
+
+{{ "<!-- Plugin JavaScript -->" | safeHTML }}
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script>
+    $(document).ready(function(){
+      $("a").on('click', function(event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+          var hash = this.hash;
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+            window.location.hash = hash;
+          });
+        } 
+      });
+    });
+  </script>
+

@@ -1,0 +1,28 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
+<meta name="author" content="{{ with .Site.Params.author }}{{ . }}{{ end }}">
+{{ .Hugo.Generator }}
+
+<meta property="og:title" content="{{ .Site.Params.ogTitle}} {{ .Site.Params.pengantin.shortnamePria}} & {{ .Site.Params.pengantin.shortnameWanita}}" />
+<meta property="og:url" content="{{ .Site.BaseURL }}{{ .Site.Params.ogUrl}}" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="{{ .Site.Params.ogImage}}" />
+<meta property="og:description" content="{{ .Site.Params.ogDescription}}{{ .Site.Params.pengantin.shortnamePria}} & {{ .Site.Params.pengantin.shortnameWanita}}">
+
+
+<title>{{ .Site.Title}} | {{ .Site.Params.pengantin.shortnamePria}} & {{ .Site.Params.pengantin.shortnameWanita}}</title>
+
+{{ "<!-- Custom CSS -->" | safeHTML }}
+<!-- <link href="css/freelancer.css" rel="stylesheet"> -->
+<link href="css/bentukcinta.css" rel="stylesheet">
+
+{{ "<!-- Custom Fonts -->" | safeHTML }}
+
+{{ "<!-- Vendor JS -->" | safeHTML }}
+<script src="js/jquery-3.5.1.slim.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+

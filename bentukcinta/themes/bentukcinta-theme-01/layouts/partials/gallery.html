@@ -1,0 +1,60 @@
+<section id="gallery" class="gallery-section bg-light">
+
+    <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="mb-5">Gallery</h2>
+          </div>
+    </div>
+
+    {{ "<!-- Video Player -->" | safeHTML }}
+
+    <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <div class="videoWrapper col-xl-8 col-lg-7">
+          <iframe width="600" height="400" 
+          src="https://www.youtube.com/embed/{{ .Site.Params.youtube}}?autoplay=1">
+          </iframe>
+        </div>
+        <div class="col-xl-4 col-lg-5">
+          <div class="featured-text text-center text-lg-left ml-lg-5 mt-3">
+            <p class="text-black mb-2">"Ya Tuhanku yang Maha Pengasih, anugrahkanlah kepada pasangan pengantin ini senantiasa berbahagia keduanya tiada terpisahkan, panjang umur, semoga pengantin ini dianugrahkan putra dan cucu yang memberikan penghiburan, tinggal dirumah yang penuh kebahagiaan.”</p>
+            <p class="text-black-50">RG VEDA X.85.42</p>
+          </div>
+        </div>
+      </div>
+
+      {{ "<!-- image Gallery -->" | safeHTML }}
+
+    <div class="container">
+      
+        <hr class="mt-2 mb-5">
+      
+        <div class="row text-center text-lg-left">
+      
+          <div class="col-lg-3 col-md-4 col-6">
+            <a data-fancybox="gallery" href="img/gallery1.jpg" class="d-block mb-4 h-100">
+                  <img class="img-fluid img-thumbnail" src="img/gallery1-thumb.jpg" alt="">
+                </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <a data-fancybox="gallery" href="img/gallery2.jpg" class="d-block mb-4 h-100">
+                  <img class="img-fluid img-thumbnail" src="img/gallery2-thumb.jpg" alt="">
+                </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <a data-fancybox="gallery" href="img/gallery3.jpg" class="d-block mb-4 h-100">
+                  <img class="img-fluid img-thumbnail" src="img/gallery3-thumb.jpg" alt="">
+                </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <a data-fancybox="gallery"  href="img/gallery4.jpg" class="d-block mb-4 h-100">
+                  <img class="img-fluid img-thumbnail" src="img/gallery4-thumb.jpg" alt="">
+                </a>
+          </div>
+         
+        </div>
+      
+      </div>
+
+    
+  </section>

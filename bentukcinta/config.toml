@@ -1,0 +1,41 @@
+# Site settings
+baseurl = "https://www.bentukcinta.com/"
+languageCode = "en-us"
+title = "Bentuk Cinta"
+theme = "bentukcinta-theme-04"
+
+
+[params]
+    ogTitle = "Undangan Upacara Pawawihan "
+    ogUrl = "bayudian"
+    ogImage = "opimage.jpg"
+    ogDescription = "Atas Asung Kertha Wara Nugraha Ida Sang Hyang Widhi Wasa/Tuhan Yang Maha Esa kami bermaksud akan menyelenggarakan Upacara Manusia Yadnya Pawiwahan Putra dan Putri kami "
+    description = "Undangan Online BentukCinta.com"
+
+    author = "bentukcinta"
+    notelp ="+6287851135820"
+    googlemap = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1011.4390678747509!2d114.94393272409542!3d-8.19563340495038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOMKwMTEnNDQuMyJTIDExNMKwNTYnNDAuNSJF!5e1!3m2!1sen!2sid!4v1631884656296!5m2!1sen!2sid"
+    koordinat = "-8.195615,114.944590"
+    youtube = "Rj_SNIP5nOQ"
+
+    [params.pengantin]
+        shortnamePria = "Bayu"
+        longnamePria = "Komang Bayu Rajendra S.Pd"
+        detailPria = "Putra ketiga dari pasangan"
+        ortuPria = "Putu Mangku Setiawan (Alm.) & Nyoman Budesti (Alm.)"
+        alamatPria = "Br. Taman Sari, Desa Sulanyah, Kec. Seririt, Buleleng"
+        shortnameWanita = "Dian"
+        longnameWanita = "Ni Kadek Asri Puspawati"
+        detailWanita = "Putri pertama dari pasangan"
+        ortuWanita = "I Wayan Sudiantara (alm) & Ni Wayan Dori"
+        alamatWanita = "Br. Dalem Kesumasari, Ds. Pemogan, Kec. Denpasar selatan, Denpasar"
+        
+
+    [params.acara]
+        hari = "Jumat"
+        tanggal = "24"
+        bulan = "September"
+        tahun = "2021"
+        pukul = "14:00 Wita - Selesai"
+        alamat = "Br. Taman Sari, Desa Sulanyah, Kec. Seririt, Buleleng"
+
